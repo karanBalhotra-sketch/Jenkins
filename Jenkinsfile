@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git ''
+                git 'https://github.com/karanBalhotra-sketch/Jenkins.git'
             }
         }
         stage('Install Dependencies') {
